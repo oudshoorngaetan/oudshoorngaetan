@@ -235,3 +235,32 @@ nav > ul > li:hover > a{
  rgba(0,0,0,0.3);
   }
 }
+
+/*Affichage des biens*/
+article {
+  margin: 5% 10%;
+}
+
+section.ligne  {
+  display: flex;
+}
+
+section.colonne {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 10%;
+}
+
+section.colonne h2 {
+  margin-left: 35%;
+}
+
+section img {
+  max-width: 50%;
+  height: auto;
+}
+
+section h2 {
+  position: relative;
+  left 10%;
+}
