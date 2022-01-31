@@ -91,21 +91,39 @@ header{
 
 article.intro > h2{
 	position: relative;
+  text-align: center;
 	font-size: 32px;
+  color: #0800FF;
 }
 article.intro > p{
 	position: relative;
 	font-size: 25px;
 }
 footer{
-	display: flex;
-	position: sticky;
+	position: relative;
 	text-align: justify;
 	justify-content: left;
 	padding: 5px;
+  padding-left: 15%;
 	background-color: #909090 ;
 	color: #fff;
 	font-size: 17px;
+  bottom: 0; left: 0; right: 0;
+}
+
+footer > p {
+  position: relative;
+  text-align: justify;
+  justify-content: left;
+  padding-left: 2%;
+}
+
+footer  a {
+  color:#fff;
+}
+
+footer.presentation {
+  position:absolute;
 }
 
 nav{
@@ -165,7 +183,7 @@ li > a {
   border-radius: 2px;
   overflow: hidden;
   max-height: 0;
-  position: absolute;
+  position: relative;
   z-index: 10;
 }
 
@@ -276,4 +294,8 @@ section.colonne h2 {
 section img {
   max-width: 50%;
   height: auto;
+}
+
+textarea {
+  width:200%;
 }

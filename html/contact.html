@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8"/>
-    <title> Accueil </title>
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
+<title>Projet</title>
+<meta charset="UTF-8">
+<meta name="Club" content="Présentation">
+<link href="../css/style.css" rel="stylesheet">
 </head>
+
 <body>
-	<header>	
-	<picture class="logo">
-		<img src="../images/accueil1_2.png">
-	</picture>		
-		<h1> La vie, la maison </h1>
+	<header>
+		<picture class="logo">
+			<img src="../images/accueil1_2.png" alt="logo_agence">
+		</picture>	
 	</header>
 <nav>
 		<ul>
-			<li class="menu"><a href="../index.html">Accueil</a></li>
+			<li class="menu"><a href="accueil.html">Accueil</a></li>
 			<li class="menu"> Maisons
 				<ul class="sub-menu">
 					<li><a href="maisons/maison1.html"> Maison 1 </a></li>
@@ -83,16 +84,57 @@
 			<li class="menu"><a href="contact.html">Contact</a></li>
 		</ul>
 	</nav>	
-	<article class="intro">
-    <h2> LaForêt </h2>
-	<p> LaForêt est un réseau d'agence immobilières crée en 1981 d'abord en tant que <br>
-		agence indépendante puis en tant que franchise à partir de 1991. <br>
-	    Elle comptas plus de 700 agences franchisées partout en France aujourd'hui <br>
-	    Voir même au Portugal et au Luxembourgs </p>
-</article>
-<footer class="presentation">
+	<article>
+<form name="myForm" action="" method="post">
+         <table class="form-style">
+            <tr>
+               <td>
+                  <label>
+                     Votre nom <span class="required">*</span>
+                  </label>
+               </td>
+               <td>
+                  <input type="text" name="name" class="long"/>
+                  <span class="error" id="errorname"></span>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <label>
+                     Votre adresse e-mail <span class="required">*</span>
+                  </label>
+               </td>
+               <td>
+                  <input type="email" name="email" class="long"/>
+                  <span class="error" id="erroremail"></span>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <label>
+                     Message <span class="required">*</span>
+                  </label>
+               </td>
+               <td>
+                  <textarea name="message" class="long field-textarea"></textarea>
+                  <span class="error" id="errormsg"></span>
+               </td>
+            </tr>
+            <tr>
+               <td></td>
+               <td>
+                  <input type="submit" value="Envoyer">      
+                  <input type="reset" value="Réinitialiser"> 
+               </td>
+            </tr>
+         </table>
+      </form>
+
+	</article>
+	<footer class="presentation">
 	<h3> Contact :</h3>
 	<p><a href="mailto:laforet.pro@gmail.com"> laforet.prog@gmail.com</a><br>Numero de téléphone : 0663755396 </p>
-</footer>
+	</footer>
+
 </body>
 </html>
