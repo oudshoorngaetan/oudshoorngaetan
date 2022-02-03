@@ -83,11 +83,15 @@ header > h1{
     position: relative;
     text-align: center;
     margin: 0px;
-    font-size: 60px;
+    font-size: 40px;
     font-style: italic;
     background-color: #00549F;
     color: #fff;
-    padding: 2.5% 0%;
+    padding: 1.5% 0%;
+}
+
+h1.index {
+  font-size: 60px;
 }
 
 header{	
@@ -316,5 +320,5 @@ section img {
 }
 
 textarea {
-  width:200%;
+  padding: 30% 50%;
 }
