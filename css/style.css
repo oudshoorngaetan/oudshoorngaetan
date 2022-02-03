@@ -52,6 +52,8 @@ img {
   box-shadow: 0px 0px 5px 0px rgba(100, 100, 100, 0.8);
 }
 
+/* Pour les boutons */
+
 #img2:target .slider-content {
   transform: translateX(-800px);
 }
@@ -103,17 +105,17 @@ header.accueil {
   padding-top: 20%;
 }
 
+
 article.intro > h2{
-	position: relative;
   text-align: center;
 	font-size: 45px;
   color: #00549F;
   padding: 5% 0%;
 }
 article.intro > p{
-	position: relative;
 	font-size: 25px;
 }
+
 footer{
 	position: relative;
 	text-align: justify;
@@ -141,6 +143,8 @@ footer.presentation {
   position:absolute;
 }
 
+/* Navigation */
+
 nav{
   margin: 0px;
   padding: 0px;
@@ -156,6 +160,7 @@ nav > ul {
   box-shadow: 0px 1px 2px 1px 
 rgba(0,0,0,0.3);
   height: var(--hauteur-menu);
+  position: relative;
 }
 
 
@@ -165,7 +170,6 @@ nav ul {
 
 nav > ul > li {
   background-color: white;
-  position: relative;
   height: 100%;
   padding: 2%;
   flex: 1;
@@ -184,7 +188,6 @@ li > a {
 }
 
 .menu:hover > a:after {
-  content: '>';
   font-size: 15px;
   margin-left: 7px;
   display: inline-block;
@@ -199,7 +202,7 @@ li > a {
   border-radius: 2px;
   overflow: hidden;
   max-height: 0;
-  position: relative;
+  position: absolute;
 }
 
 .sub-menu > li > a {
@@ -247,8 +250,8 @@ nav > ul > li:hover > a{
 
 .sub-menu {
   margin-top: var(--hauteur-menu);
-  width: 100%;
-  text-align: left;
+  width: 15%;
+  text-align: center;
   overflow: hidden;
   max-height: 0;
   border-radius: 2px;
@@ -278,6 +281,7 @@ nav > ul > li:hover > a{
 }
 
 /*Affichage des biens*/
+
 h2 {
   color: #00549F;
   font-size: 2em;
