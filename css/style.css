@@ -79,21 +79,31 @@ img {
 /* Footer et header */
 
 header > h1{	
+    font-family:  fangsong;
     position: relative;
+    text-align: center;
     margin: 0px;
-    font-size: 17px;
+    font-size: 60px;
     font-style: italic;
-    font-weight: bolder;
+    background-color: #00549F;
+    color: #fff;
+    padding: 2.5% 0%;
 }
+
 header{	
 	background-image: url(../images/accueil1_1.jpg);
+  background-size: cover;
+}
+
+header.accueil {
+  padding-top: 20%;
 }
 
 article.intro > h2{
 	position: relative;
   text-align: center;
 	font-size: 32px;
-  color: #0800FF;
+  color: #00549F;
 }
 article.intro > p{
 	position: relative;
@@ -105,7 +115,7 @@ footer{
 	justify-content: left;
 	padding: 5px;
   padding-left: 15%;
-	background-color: #909090 ;
+	background-color: #00549F ;
 	color: #fff;
 	font-size: 17px;
   bottom: 0; left: 0; right: 0;
@@ -279,6 +289,7 @@ article {
 
 section.ligne  {
   display: flex;
+  border-bottom: dashed slategrey;
 }
 
 section.colonne {
